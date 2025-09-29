@@ -164,7 +164,6 @@ body {
 .faq .questions {
   width: 50%;
   margin: auto;
-  
 }
 .faq h1 {
   text-align: center;
@@ -235,6 +234,25 @@ body {
     transform: translate(1%);
   }
 }
+.email-float {
+  position: fixed;
+  bottom: 20px;
+  right: 5px;
+  background: #004080;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, background 0.3s;
+  z-index: 1000;
+}
+
+.email-float:hover {
+  background: #0066cc;
+  transform: scale(1.1);
+}
 
 footer {
   background: #2e2e2e;
@@ -281,7 +299,7 @@ footer {
     overflow: auto;
     height: 150px;
   }
-  .faq .questions{
+  .faq .questions {
     width: 80%;
     margin: auto;
   }
