@@ -281,4 +281,8 @@ footer {
     overflow: auto;
     height: 150px;
   }
+  .faq .questions{
+    width: 80%;
+    margin: auto;
+  }
 }
